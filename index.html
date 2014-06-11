@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+  <title>FaceBook Page Search</title>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>FACEBOOK PAGE SEARCH</h1>
+        <div id="myFav" onclick="showFav()">My Fav</div>
+        <div id="myFavWrapper">
+            <a href="#" class="close" onClick="hideFav()">Close</a>
+            <ul id="myfavList">
+            </ul>
+        </div>
+        <div id="searchPages">
+            <input id="search" type="text" placeholder="Enter name" onkeypress="return runScript(event)">
+            <button class="button"  onclick="getData()" type="submit">Search</button>
+        </div>
+    </header>
+    <div class="loading"><img src="images/facebook_loading.gif" width="30"></div>
+    <section class="contaner">
+        <div class="header"><h2 id="searchResultCount"></h2></div>
+        <ul class="page-results"></ul>
+    </section>
+    
+  <script type="text/javascript" src='js/app.js'></script>
+ </body>
+</html>

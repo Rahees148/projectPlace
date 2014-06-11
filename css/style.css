@@ -1,0 +1,144 @@
+*{margin: 0px; padding: 0px;}
+body{background-color: #e9eaed; 
+    font-family: 'Titillium Web', sans-serif;}
+header{
+    width: 100%;
+    height: 45px;
+    background-color: #3e5c9a;
+    border-bottom: 1px solid #3a4b7b;
+    padding: 0 5%;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -wekit-box-sizing:border-box;
+}
+header h1{
+    
+    font-weight: 600;
+    color: #fff;
+    float: left;
+    line-height: 43px;
+    font-size: 20px;}
+header #myFav{
+    width: auto;
+    color: #fff;
+    float: right; cursor: pointer; display: none;
+    padding: 3px 25px 5px;
+    background-color: #2f477a;
+    margin: 7px 0 0 20px;
+    border-radius: 5px;
+}
+header #myFavWrapper{
+    width: 300px; display: none;
+    height: 300px;
+    position: absolute;
+    background: #2f477a;
+    border-radius: 5px 0 5px 5px;
+    top: 36px;
+    right: 5%;
+    z-index: 5;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+header .close{
+    float: right; width: auto; color: #fff; position: relative; top: -10px;
+}
+header #myfavList{list-style: none; width: 100%; float: left;}
+header #myFavWrapper li span{
+    color: #fff; float: right; cursor: pointer;
+}
+header #myFavWrapper li{
+    width: 100%;
+    border-bottom: 1px dashed #fff;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+header #myFavWrapper li a{
+    color: #fff; text-decoration: none;
+}
+#searchPages{   
+    width: 45%; float: right; position: relative;}
+#searchPages input{
+    width: 90%;
+    height: 20px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #2f477a; border-radius: 3px;
+    padding:5px 5%; margin-top: 7px;
+}
+.button{
+    text-indent: -9999px;
+    float: right; position: absolute;
+    top: 17px; right: 10px;
+    height: 13px; width: 13px; border: none;
+    background: url(../images/icon_search.jpg) no-repeat;
+}
+.loading{
+    width: 75px;
+    height: 75px;  padding: 20px 0; 
+    position: absolute; text-align: center; margin: auto;
+    background-color: #fff; border-radius:5px;
+    top: 0; right: 0; bottom: 0; left: 0px; display: none;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -wekit-box-sizing:border-box;}
+
+.contaner{
+    width: 90%;
+    margin: 20px auto;
+    height: auto; min-height: 200px;
+    background-color: #fff; display: table;
+    border: 1px solid #c4cde0; border-radius: 5px;
+}
+.contaner .header{
+    width: 100%; height: auto; float: left; 
+    padding: 20px;  color: #333;
+    border-bottom: 1px solid #c4cde0;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -wekit-box-sizing:border-box;
+}
+.contaner ul{
+    list-style: none; float: left;
+    width: 100%; padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -wekit-box-sizing:border-box;
+}
+.contaner ul li{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #c4cde0;}
+.contaner ul li div{
+    float: left;}
+.contaner ul li h4{
+    float: left;
+    width: auto;}
+.contaner ul li a{
+    float: right;
+    width:  auto; margin-left: 10px;
+    padding: 5px 15px;
+    background-color: #4c67a1; color: #fff;
+    text-decoration: none; border-radius: 3px; border: 1px solid #3c5488;
+}
+.contaner ul li p{float: left;
+width: 100%;
+font-size: 14px;
+color: #ccc;}
+.contaner ul li p span{font-weight: 600;}
+#coverImg img{width: 100%;}
+.header #pageName{
+    width: auto; float: left; margin-right:5px;
+}
+.header #pageCat{width: auto; float: left; color: #868585; line-height: 32px;}
+.header .subTxt{
+    color: #868585; width: 100%; float: left;
+    font-size: 14px; line-height: 20px;
+}
+.header .addFav{
+    float: right;
+    width:  auto;
+    padding: 5px 15px;
+    background-color: #4c67a1; color: #fff;
+    text-decoration: none; border-radius: 3px; border: 1px solid #3c5488;
+}
